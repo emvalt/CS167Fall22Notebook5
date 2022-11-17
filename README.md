@@ -45,10 +45,10 @@ I will update the following rubric with your grade after you have completed the 
 ### Rubric:
 | Exercise #            | Points Awarded | Notes |
 | --------------------- | -------------------------- | ----- |
-| 1: Random Forest Default and Tuned |        /1|    |
-| 2: SVC Default and Tuned           |        /1|    |
-| 3: Perceptron Default and Tuned    |        /1|    |
-| 4: SGD Default and Tuned           |        /1|    |
-| 5: PCA                             |        /1|    |
-| 6: Conclusions                     |        /1|    |
-| <b>Total                           |        /6| </b>   |
+| 1: Random Forest Default and Tuned |      1  /1|  not using normalized data in a decision tree has no real significance, so ok   |
+| 2: SVC Default and Tuned           |      .8  /1|  not using normalized data consistently here...   |
+| 3: Perceptron Default and Tuned    |       .8 /1|  re-establishing test/train split, but not normalized and then changing testing set sizes prevents an accurate comparison  |
+| 4: SGD Default and Tuned           |     .5   /1| This is a classification problem (Malignant or benign) You shouldn't be using SDGRegressor here.    |
+| 5: PCA                             |       .7 /1| Whoa! Now there is Iris data/code here?!?    |
+| 6: Conclusions                     |         .7 /1|  it's likely that the reduction of dimensions caused some compression of the data that caused it to not be as effective as with the full set of predictors  |
+| <b>Total                           |       4.5 /6| I feel like you've gotten a little lost on this one. Please make a meeting time with any questions, as these concepts will be on the last exam.   |
